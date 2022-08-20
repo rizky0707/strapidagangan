@@ -1,9 +1,54 @@
+ssl: {
+  rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
+},
+},
+options: {
+ssl: env.bool('DATABASE_SSL', false),
+},````
+
+## complete database.js file looks like 
+
+``` // localhost
+
+// module.exports = ({ env }) => ({
+//   defaultConnection: 'default',
+//   connections: {
+//     default: {
+//       connector: 'bookshelf',
+//       settings: {
+//         client: 'sqlite',
+//         filename: env('DATABASE_FILENAME', '.tmp/data.db'),
+//       },
+//       options: {
+//         useNullAsDefault: true,
+//       },
+//     },
+//   },
+// });
+
+// production
+
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
-  port: env.int('PORT', 1337),
-  admin: {
-    auth: {
-      secret: env('ADMIN_JWT_SECRET', 'e91e01cb303ae8816d56d6b95bd6f150'),
-    },
-  },
+defaultConnection: 'default',
+connections: {
+default: {
+connector: 'bookshelf',
+settings: {
+client: 'postgres',
+host: env('DATABASE_HOST', '127.0.0.1'),
+port: env.int('DATABASE_PORT', 5432),
+database: env('DATABASE_NAME', 'strapi'),
+username: env('DATABASE_USERNAME', ''),
+password: env('DATABASE_PASSWORD', ''), 
+//add this line
+ssl: {
+  rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
+},     
+},
+// add this line
+options: {
+ssl: env.bool('DATABASE_SSL', false),
+},
+},
+},
 });
