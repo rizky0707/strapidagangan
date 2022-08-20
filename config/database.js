@@ -1,7 +1,3 @@
-
-
-
-
 module.exports = ({ env }) => ({
   defaultConnection: 'default',
   connections: {
@@ -14,14 +10,9 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', 'dagangan'),
         username: env('DATABASE_USERNAME', 'postgres'),
         password: env('DATABASE_PASSWORD', '123456'),
-         //add this line
-         ssl: {
-          rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
-        },     
-      },
-      options: {
         ssl: env.bool('DATABASE_SSL', false),
-      }
+      },
+      options: {}
     },
   },
 });
