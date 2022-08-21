@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_image_inventor_multis",
+  "info": {
+    "name": "Image Inventor Multis",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

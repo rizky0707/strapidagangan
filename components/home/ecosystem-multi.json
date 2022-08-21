@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_ecosystem_multis",
+  "info": {
+    "name": "Ecosystem Multi",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

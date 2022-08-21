@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_home_area_coverages_multis",
+  "info": {
+    "name": "Area Coverages Multi",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "Location": {
+      "type": "richtext"
+    }
+  }
+}

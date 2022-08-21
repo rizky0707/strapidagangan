@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "tests",
   "info": {
-    "name": "test"
+    "name": "Home",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,8 +12,55 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "test": {
-      "type": "string"
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.home"
+    },
+    "Our_solution": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-solution"
+    },
+    "Dagangan_Ecosystem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.dagangan-ecosystem"
+    },
+    "Area_coverages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.area-coverages"
+    },
+    "Our_impacts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-impacts"
+    },
+    "Success_stories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.success-stories"
+    },
+    "Join_our_team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.join-our-team"
+    },
+    "Our_Invesntor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-inventor"
+    },
+    "Our_partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-partners"
+    },
+    "As_seen_on_media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.as-seen-on-media"
     }
   }
 }

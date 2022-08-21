@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_our_inventors",
+  "info": {
+    "name": "Our Inventor",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Image_inventor_multis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.image-inventor-multis"
+    }
+  }
+}
