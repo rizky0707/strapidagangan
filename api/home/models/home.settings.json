@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "tests",
+  "collectionName": "homes",
   "info": {
     "name": "Home",
     "description": ""
@@ -27,7 +27,7 @@
       "repeatable": false,
       "component": "home.dagangan-ecosystem"
     },
-    "Area_coverages": {
+    "Area_Coverages": {
       "type": "component",
       "repeatable": false,
       "component": "home.area-coverages"
@@ -37,27 +37,27 @@
       "repeatable": false,
       "component": "home.our-impacts"
     },
-    "Success_stories": {
+    "Success_Stories": {
       "type": "component",
       "repeatable": false,
       "component": "home.success-stories"
     },
-    "Join_our_team": {
+    "Join_Our_Team": {
       "type": "component",
       "repeatable": false,
       "component": "home.join-our-team"
     },
-    "Our_Invesntor": {
+    "Our_Investor": {
       "type": "component",
       "repeatable": false,
       "component": "home.our-inventor"
     },
-    "Our_partners": {
+    "Our_Partners": {
       "type": "component",
       "repeatable": false,
       "component": "home.our-partners"
     },
-    "As_seen_on_media": {
+    "As_Seen_On_Media": {
       "type": "component",
       "repeatable": false,
       "component": "home.as-seen-on-media"

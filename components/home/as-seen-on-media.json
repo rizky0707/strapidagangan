@@ -2,7 +2,8 @@
   "collectionName": "components_home_as_seen_on_medias",
   "info": {
     "name": "As Seen On Media",
-    "icon": "angle-double-down"
+    "icon": "angle-double-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,9 @@
       "type": "component",
       "repeatable": true,
       "component": "home.as-seen-on-media-multi"
+    },
+    "Headline": {
+      "type": "string"
     }
   }
 }
