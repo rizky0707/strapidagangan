@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_belanja_area_coverages",
+  "info": {
+    "name": "Area Coverages",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

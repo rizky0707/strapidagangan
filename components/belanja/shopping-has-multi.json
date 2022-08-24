@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_belanja_shopping_has_multis",
+  "info": {
+    "name": "Shopping_has_multi",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    }
+  }
+}

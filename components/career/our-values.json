@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_career_our_values",
+  "info": {
+    "name": "Our Values",
+    "icon": "birthday-cake"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Our_Value_Multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.our-value-multi"
+    }
+  }
+}

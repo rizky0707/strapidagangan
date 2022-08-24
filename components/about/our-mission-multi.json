@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_our_mission_multis",
+  "info": {
+    "name": "Our Mission Multi",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/belanja",
+      "handler": "belanja.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/belanja",
+      "handler": "belanja.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/belanja",
+      "handler": "belanja.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

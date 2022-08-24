@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_belanja_why_shop_with_dagangan_multis",
+  "info": {
+    "name": "Why Shop With Dagangan Multi",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

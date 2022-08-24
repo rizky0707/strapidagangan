@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_career_headers",
+  "info": {
+    "name": "Header",
+    "icon": "arrow-circle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title_top": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Title_bottom": {
+      "type": "string"
+    },
+    "Banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

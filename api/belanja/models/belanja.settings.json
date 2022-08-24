@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "belanjas",
+  "info": {
+    "name": "Belanja",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "belanja.header"
+    },
+    "Why_Shop_With_Dagangan": {
+      "type": "component",
+      "repeatable": false,
+      "component": "belanja.why-shop-with-dagangan"
+    },
+    "Tentang": {
+      "type": "component",
+      "repeatable": false,
+      "component": "belanja.tentang"
+    },
+    "Area_Coverages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "belanja.area-coverages"
+    },
+    "Testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "belanja.testimonial"
+    },
+    "Ads": {
+      "type": "component",
+      "repeatable": false,
+      "component": "belanja.ads"
+    }
+  }
+}

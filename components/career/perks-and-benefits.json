@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_career_perks_and_benefits",
+  "info": {
+    "name": "Perks and Benefits",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Perks_and_Benefits_Multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "career.perks-and-benefits-multi"
+    }
+  }
+}

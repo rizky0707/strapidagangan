@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_belanja_tentangs",
+  "info": {
+    "name": "Tentang",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Headline_shop": {
+      "type": "string"
+    },
+    "Shopping_has_multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "belanja.shopping-has-multi"
+    }
+  }
+}

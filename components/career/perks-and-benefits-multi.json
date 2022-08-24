@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_career_perks_and_benefits_multis",
+  "info": {
+    "name": "Perks and Benefits Multi",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

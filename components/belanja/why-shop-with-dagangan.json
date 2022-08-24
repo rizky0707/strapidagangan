@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_belanja_why_shop_with_dagangans",
+  "info": {
+    "name": "Why Shop With Dagangan",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Why_Shop_With_Dagangan_Multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "belanja.why-shop-with-dagangan-multi"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_our_missions",
+  "info": {
+    "name": "Our Mission",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Our_Mission_Multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.our-mission-multi"
+    }
+  }
+}

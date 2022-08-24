@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.header"
+    },
+    "Our_Values": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.our-values"
+    },
+    "Our_Vision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.our-vision"
+    },
+    "Our_Journey": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.our-journey"
+    },
+    "Our_Mission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.our-mission"
+    }
+  }
+}

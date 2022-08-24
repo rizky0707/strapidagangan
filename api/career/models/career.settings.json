@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "name": "Career",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "career.header"
+    },
+    "What": {
+      "type": "component",
+      "repeatable": true,
+      "component": "career.what"
+    },
+    "Perks_and_Benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "career.perks-and-benefits"
+    },
+    "Our_Values": {
+      "type": "component",
+      "repeatable": false,
+      "component": "career.our-values"
+    }
+  }
+}

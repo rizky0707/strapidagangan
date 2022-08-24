@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_our_journey_multis",
+  "info": {
+    "name": "Our Journey Multi",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Year": {
+      "type": "string"
+    }
+  }
+}

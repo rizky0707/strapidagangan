@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_belanja_testimonials",
+  "info": {
+    "name": "Testimonial",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Testimonial_Multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "belanja.testimonial-multi"
+    }
+  }
+}
